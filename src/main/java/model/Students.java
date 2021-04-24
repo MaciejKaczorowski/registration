@@ -7,9 +7,8 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "students")
-@NamedQueries( {
-        @NamedQuery(name = "addStudentToTable", query = "INSERT INTO students (firstName, lastName, email, password) VALUES ()")
-})
+//@NamedQueries( {
+//})
 public class Students implements Serializable {
 
     @Id
