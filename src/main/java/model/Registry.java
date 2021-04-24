@@ -1,4 +1,4 @@
-package dao.model;
+package model;
 
 public class Registry {
 }
