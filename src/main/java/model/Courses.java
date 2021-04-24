@@ -20,7 +20,7 @@ public class Courses {
     @Column(name = "teacher_id")
     private int teacherId;
 
-    List<Courses> courses = new ArrayList<>();
+    List<Courses> courses = new ArrayList<Courses>();
 
     public void addCourse (Courses course) {
         courses.add(course);
